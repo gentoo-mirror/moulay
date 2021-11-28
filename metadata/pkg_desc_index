@@ -1,0 +1,31 @@
+app-editors/bed 9999: Bash only text editor
+app-editors/helix 0.5.0 9999: A post-modern modal text editor
+app-misc/tiramisu 2.0.20211107 9999: Desktop notifications, the UNIX way
+dev-libs/fcft 2.5.0 9999: A small font loading and glyph rasterization library
+dev-libs/libexecinfo 1.1: A quick-n-dirty BSD licensed clone of the GNU libc backtrace facility
+dev-libs/tllist 1.0.5 9999: Typed Linked List C header file only library
+dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
+dev-tex/texlab 9999: An implementation of the Language Server Protocol for LaTeX
+dev-util/kak-lsp 11.0.1 9999: Kakoune Language Server Protocol Client
+gui-apps/foot 1.10.1 9999: A fast, lightweight and minimalistic Wayland terminal emulator
+gui-apps/nwg-launchers 0.6.3 9999: GTK-based launchers for sway and other window managers
+gui-apps/wayland-utils 1.0.0 9999: Display information about supported Wayland protocols
+gui-apps/wev 1.0.0 9999: Tool for debugging events on a Wayland window
+gui-apps/wlr-randr 0.2.0 9999: An xrandr clone for wlroots compositors
+gui-apps/wlsunset 0.2.0 9999: Day/night gamma adjustments for Wayland compositors
+gui-libs/libadwaita 1.0.0_alpha_rc2 1.0.0_alpha_rc3 1.0.0_alpha_rc4 9999: Building blocks for modern GNOME applications
+gui-wm/cage 0.1.4: A Wayland kiosk
+gui-wm/gamescope 3.9.5: The micro-compositor formerly known as steamcompmgr
+media-fonts/montserrat 7.222: Fontface inspired by the traditional Montserrat neighborhood of Buenos Aires
+media-sound/carla 2.4.1 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
+media-sound/catnip 1.0.0 9999: terminal audio visualizer
+media-sound/catnip-gtk 9999: catnip gtk frontend
+media-sound/myxer 1.2.1 9999: A modern Volume Mixer for PulseAudio
+media-sound/volctl 0.9.1 9999: Volume control for GNU/Linux desktops featuring per-app sliders
+net-im/cchat-gtk 9999: Gtk frontend for cchat
+net-im/fractal 4.4.1b_rc1 9999: Matrix messaging app for GNOME written in Rust
+net-im/gotktrix 9999: Matrix client in Go and GTK4
+sys-devel/cc-config 9999: Utility to control symlinks for cc, c++, and friends
+x11-misc/blugon 1.12.1 9999: A simple Blue Light Filter for X
+x11-misc/boox 1.1.0 9999: Tool to select a region on the screen and print it to stdout
+x11-misc/setroot 2.0.2 9999: Simple X background setter inspired by imlibsetroot and feh
