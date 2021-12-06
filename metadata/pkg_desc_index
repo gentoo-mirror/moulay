@@ -7,7 +7,7 @@ dev-libs/tllist 1.0.5 9999: Typed Linked List C header file only library
 dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
 dev-tex/texlab 9999: An implementation of the Language Server Protocol for LaTeX
 dev-util/kak-lsp 11.0.1 9999: Kakoune Language Server Protocol Client
-gui-apps/foot 1.10.1 9999: A fast, lightweight and minimalistic Wayland terminal emulator
+gui-apps/foot 1.10.2 9999: A fast, lightweight and minimalistic Wayland terminal emulator
 gui-apps/nwg-launchers 0.6.3 9999: GTK-based launchers for sway and other window managers
 gui-apps/wayland-utils 1.0.0 9999: Display information about supported Wayland protocols
 gui-apps/wev 1.0.0 9999: Tool for debugging events on a Wayland window
