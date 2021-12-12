@@ -20,7 +20,7 @@ fi
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="+grapheme-shaping +run-shaping"
+IUSE="+doc +grapheme-shaping +run-shaping"
 REQUIRED_USE="run-shaping? ( grapheme-shaping )"
 
 RDEPEND="
@@ -32,17 +32,21 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	app-text/scdoc
+	doc? ( app-text/scdoc )
 	dev-libs/tllist
 "
 
-DOCS=( "README.md" "CHANGELOG.md" )
-PATCHES=( "${FILESDIR}/gentoo-fhs.patch" )
+src_prepare() {
+	default
+
+	sed -i "s/'fcft'))/'${PF}'))/" meson.build || die
+}
 
 src_configure() {
 	local emesonargs=(
-		$(meson_feature run-shaping)
+		$(meson_feature doc docs)
 		$(meson_feature grapheme-shaping)
+		$(meson_feature run-shaping)
 	)
 	meson_src_configure
 }
