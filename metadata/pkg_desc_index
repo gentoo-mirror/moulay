@@ -15,7 +15,7 @@ gui-apps/wlr-randr 0.2.0 9999: An xrandr clone for wlroots compositors
 gui-apps/wlsunset 0.2.0 9999: Day/night gamma adjustments for Wayland compositors
 gui-libs/libadwaita 1.0.0_alpha_rc2 1.0.0_alpha_rc3 1.0.0_alpha_rc4 9999: Building blocks for modern GNOME applications
 gui-wm/cage 0.1.4: A Wayland kiosk
-gui-wm/gamescope 3.9.5: The micro-compositor formerly known as steamcompmgr
+gui-wm/gamescope 3.10.3: The micro-compositor formerly known as steamcompmgr
 media-fonts/montserrat 7.222: Fontface inspired by the traditional Montserrat neighborhood of Buenos Aires
 media-sound/carla 2.4.1 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
 media-sound/catnip 1.0.0 9999: terminal audio visualizer
