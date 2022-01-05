@@ -22,4 +22,5 @@ media-sound/carla:juce - Build with support for plugins using JUCE
 media-sound/carla:rdf - Get extra information from LADSPA plugins
 media-sound/carla:sf2 - Build with SF2 support using fluidsynth
 net-im/gotktrix:secrets - Install a Secret Service API provider for remembering login details
+sys-apps/drm_info:pci - Print PCI device names via libpci
 x11-misc/blugon:xgamma - Install xgamma to be used as a backend
