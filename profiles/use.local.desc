@@ -13,7 +13,6 @@ gui-apps/nwg-launchers:bar - Build the bar app
 gui-apps/nwg-launchers:dmenu - Build the dmenu app
 gui-apps/nwg-launchers:grid - Build the grid app
 gui-apps/nwg-launchers:layer-shell - Enable gtk-layer-shell support
-gui-libs/libadwaita:inspector - Build and install the libadwaita GtkInspector module
 gui-wm/gamescope:screencast - Enable screen capture with pipewire
 media-fonts/montserrat:otf - Install OTF fonts
 media-fonts/montserrat:ttf - Install TTF fonts
