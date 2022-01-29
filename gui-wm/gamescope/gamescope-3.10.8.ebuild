@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,7 +9,7 @@ DESCRIPTION="The micro-compositor formerly known as steamcompmgr"
 HOMEPAGE="https://github.com/Plagman/gamescope"
 
 LIBLIFTOFF_COMMIT="2e1dd93b60224e77f6a49ad8fb36d184e3a9a3bc"
-WLROOTS_COMMIT="3e801d68f2c6c64567b1f24c6d03893f32c81197"
+WLROOTS_COMMIT="9f41627aa10a94d9427bc315fa3d363a61b94d7c"
 SRC_URI="
 	https://github.com/Plagman/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
 	https://gitlab.freedesktop.org/emersion/libliftoff/-/archive/${LIBLIFTOFF_COMMIT}.tar.gz -> libliftoff-${LIBLIFTOFF_COMMIT}.tar.gz
@@ -24,7 +24,8 @@ IUSE="+screencast"
 # Uses libliftoff >=0.2.0 < 0.3.0, this version of libliftoff isn't released
 # yet so we will just use the bundled subproject
 # Uses wlroots >= 0.15.0 < 0.16.0, this version of wlroots isn't released yet
-# so we will just use the bundled subproject
+# so we will just use the bundled subproject (It's prob better statically link wlroots anyway to
+# prevent wlroots version conflicts with other packages)
 # I'm also including the dependencies for both libliftoff and wlroots here
 # until these versions get officially released. gamescope dependencies are
 # listed first followed by wlroots and libliftoff (libdrm)
@@ -65,7 +66,7 @@ BDEPEND="
 	dev-util/wayland-scanner
 "
 
-PATCHES=( "${FILESDIR}/${P}-system-stb.patch" )
+PATCHES=( "${FILESDIR}/${PN}-3.10.3-system-stb.patch" )
 
 src_prepare() {
 	rm -r subprojects/libliftoff || die
