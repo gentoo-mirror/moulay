@@ -23,7 +23,7 @@ media-sound/myxer 1.2.1 9999: A modern Volume Mixer for PulseAudio
 media-sound/volctl 0.9.2 9999: Volume control for GNU/Linux desktops featuring per-app sliders
 net-im/cchat-gtk 9999: Gtk frontend for cchat
 net-im/fractal 4.4.1b_rc1 9999: Matrix messaging app for GNOME written in Rust
-net-im/gotktrix 9999: Matrix client in Go and GTK4
+net-im/gotktrix 0.1.0 9999: Matrix client in Go and GTK4
 sys-apps/drm_info 2.3.0 9999: Small utility to dump info about DRM devices
 sys-devel/cc-config 9999: Utility to control symlinks for cc, c++, and friends
 x11-misc/blugon 1.12.1 9999: A simple Blue Light Filter for X
