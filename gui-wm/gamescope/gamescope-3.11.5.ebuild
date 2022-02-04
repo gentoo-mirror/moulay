@@ -5,21 +5,16 @@ EAPI=8
 
 inherit meson
 
-MY_PV="${PV/_/-}"
-MY_PV="${MY_PV/_rc/}"
-
 DESCRIPTION="The micro-compositor formerly known as steamcompmgr"
 HOMEPAGE="https://github.com/Plagman/gamescope"
 
 LIBLIFTOFF_COMMIT="378ccb4f84a2473fe73dbdc56fe35a0d2ee661cc"
 WLROOTS_COMMIT="9f41627aa10a94d9427bc315fa3d363a61b94d7c"
 SRC_URI="
-	https://github.com/Plagman/${PN}/archive/refs/tags/${MY_PV}.tar.gz -> ${P}.tar.gz
+	https://github.com/Plagman/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
 	https://gitlab.freedesktop.org/emersion/libliftoff/-/archive/${LIBLIFTOFF_COMMIT}.tar.gz -> libliftoff-${LIBLIFTOFF_COMMIT}.tar.gz
 	https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/${WLROOTS_COMMIT}.tar.gz -> wlroots-${WLROOTS_COMMIT}.tar.gz
 "
-
-S="${WORKDIR}/${PN}-${MY_PV}"
 
 LICENSE="BSD-2"
 SLOT="0"
