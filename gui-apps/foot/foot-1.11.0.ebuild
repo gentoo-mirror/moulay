@@ -23,10 +23,10 @@ SLOT="0"
 IUSE="+grapheme-clustering +ime lto pgo +themes"
 
 RDEPEND="
-	grapheme-clustering? ( media-libs/fcft[grapheme-shaping] )
-	!grapheme-clustering? ( media-libs/fcft )
 	dev-libs/wayland
 	dev-util/wayland-scanner
+	grapheme-clustering? ( media-libs/fcft[harfbuzz] )
+	media-libs/fcft
 	media-libs/fontconfig
 	media-libs/freetype
 	sys-libs/ncurses
@@ -36,9 +36,9 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 BDEPEND="
 	app-text/scdoc
-	grapheme-clustering? ( dev-libs/libutf8proc )
 	dev-libs/tllist
 	dev-libs/wayland-protocols
+	grapheme-clustering? ( dev-libs/libutf8proc )
 	pgo? ( gui-wm/cage )
 "
 
@@ -71,6 +71,7 @@ src_configure() {
 	use pgo && tc-is-clang && append-cflags -Wno-ignored-optimization-argument
 
 	local emesonargs=(
+		-Dwerror=false
 		-Dterminfo=disabled
 		$(meson_feature grapheme-clustering)
 		$(meson_use ime)
