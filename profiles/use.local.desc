@@ -14,8 +14,6 @@ gui-apps/nwg-launchers:layer-shell - Enable gtk-layer-shell support
 gui-wm/gamescope:screencast - Enable screen capture with pipewire
 media-fonts/montserrat:otf - Install OTF fonts
 media-fonts/montserrat:ttf - Install TTF fonts
-media-libs/fcft:grapheme-shaping - Enable shaping of individual grapheme clusters
-media-libs/fcft:run-shaping - Enable shaping of whole text runs
 media-sound/carla:gtk2 - Build with support for plugins using GTK+ 2
 media-sound/carla:juce - Build with support for plugins using JUCE
 media-sound/carla:rdf - Get extra information from LADSPA plugins
