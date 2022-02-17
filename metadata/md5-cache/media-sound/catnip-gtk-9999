@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/glib gui-libs/gtk-layer-shell gui-libs/libhandy:1 media-libs/portaudio sci-libs/fftw x11-libs/gtk+:3
 RESTRICT=strip
 SLOT=0
-_eclasses_=go-module	f3dd5985e24373b2ff6fab6ac109d9aa	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_eclasses_=go-module	647607f6215b4dcaba913a2ca6586407	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=08a2f4951e6add375abd96fd563ec942
