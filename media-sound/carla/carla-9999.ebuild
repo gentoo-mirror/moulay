@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -21,7 +21,7 @@ fi
 
 LICENSE="GPL-2+ LGPL-3"
 SLOT="0"
-IUSE="+X alsa +gtk gtk2 +juce osc pulseaudio +qt5 rdf sf2 +sndfile"
+IUSE="+X alsa +gtk gtk2 +juce lto osc pulseaudio +qt5 rdf sf2 +sndfile"
 REQUIRED_USE="
 	${PYTHON_REQUIRED_USE}
 	juce? ( X )
@@ -85,10 +85,10 @@ src_compile() {
 		LIBDIR="/usr/$(get_libdir)"
 		SKIP_STRIPPING=true
 		USING_JUCE=$(usex juce true false)
+		WITH_LTO=$(usex lto true false)
 	)
 
 	emake PREFIX="${EPREFIX}/usr" "${myemakeargs[@]}" features
-
 	emake PREFIX="${EPREFIX}/usr" "${myemakeargs[@]}"
 }
 
