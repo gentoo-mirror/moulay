@@ -16,6 +16,7 @@ media-fonts/montserrat:otf - Install OTF fonts
 media-fonts/montserrat:ttf - Install TTF fonts
 media-sound/carla:gtk2 - Build with support for plugins using GTK+ 2
 media-sound/carla:juce - Build with support for plugins using JUCE
+media-sound/carla:lto - Build with lto support
 media-sound/carla:rdf - Get extra information from LADSPA plugins
 media-sound/carla:sf2 - Build with SF2 support using fluidsynth
 net-im/gotktrix:secrets - Install a Secret Service API provider for remembering login details
