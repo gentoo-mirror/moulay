@@ -1,15 +1,15 @@
 BDEPEND=>=dev-lang/go-1.16 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=portaudio? ( media-libs/portaudio ) sci-libs/fftw:3.0
+DEPEND=fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio )
 DESCRIPTION=terminal audio visualizer
 EAPI=7
 HOMEPAGE=https://github.com/noriah/catnip
-INHERIT=go-module git-r3
-IUSE=+portaudio
+INHERIT=go-module optfeature git-r3
+IUSE=portaudio +fftw
 LICENSE=MIT Unlicense BSD-2
 PROPERTIES=live
-RDEPEND=portaudio? ( media-libs/portaudio ) sci-libs/fftw:3.0
+RDEPEND=fftw? ( sci-libs/fftw:3.0 ) portaudio? ( media-libs/portaudio )
 RESTRICT=strip
 SLOT=0
-_eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=3a7f420f0fbc33f66a92da5503950c61
+_eclasses_=go-module	3b47b6e0e18257d2abb17663c575fc36	optfeature	d524f291c80f9d21ad80fe978e3ca760	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=24eb07236dc398f7c86e8a5852f8f5f5
