@@ -4,7 +4,7 @@ app-misc/tiramisu 2.0.20211107 9999: Desktop notifications, the UNIX way
 dev-libs/libexecinfo 1.1: A quick-n-dirty BSD licensed clone of the GNU libc backtrace facility
 dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
 dev-tex/texlab 9999: An implementation of the Language Server Protocol for LaTeX
-dev-util/kak-lsp 12.1.0 9999: Kakoune Language Server Protocol Client
+dev-util/kak-lsp 12.2.1 9999: Kakoune Language Server Protocol Client
 dev-util/zls 0.9.0 9999: Zig LSP implementation + Zig Language Server
 gui-apps/foot 1.11.0 9999: A fast, lightweight and minimalistic Wayland terminal emulator
 gui-apps/nwg-launchers 0.6.3 9999: GTK-based launchers for sway and other window managers
@@ -12,9 +12,9 @@ gui-apps/wev 1.0.0 9999: Tool for debugging events on a Wayland window
 gui-apps/wlr-randr 0.2.0 9999: An xrandr clone for wlroots compositors
 gui-apps/wlsunset 0.2.0 9999: Day/night gamma adjustments for Wayland compositors
 gui-wm/cage 0.1.4: A Wayland kiosk
-gui-wm/gamescope 3.11.26: The micro-compositor formerly known as steamcompmgr
+gui-wm/gamescope 3.11.30: The micro-compositor formerly known as steamcompmgr
 media-fonts/montserrat 7.222: Fontface inspired by the traditional Montserrat neighborhood of Buenos Aires
-media-sound/carla 2.4.2 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
+media-sound/carla 2.4.2 2.4.2-r1 9999: Full featured audio plugin host supporting many audio drivers and plugin formats
 media-sound/catnip 1.6.2-r1 9999: terminal audio visualizer
 media-sound/catnip-gtk 9999: catnip gtk frontend
 media-sound/myxer 1.2.1 9999: A modern Volume Mixer for PulseAudio
