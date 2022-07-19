@@ -35,7 +35,7 @@ RDEPEND="
 	dev-libs/wayland-protocols
 	dev-util/glslang
 	dev-util/vulkan-headers
-	media-libs/libsdl2
+	media-libs/libsdl2[vulkan]
 	media-libs/vulkan-loader
 	screencast? ( media-video/pipewire )
 	sys-libs/libcap
