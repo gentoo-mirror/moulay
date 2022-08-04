@@ -55,7 +55,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-PATCHES=( "${FILESDIR}/clang-fno-gnu-unique.patch" )
+PATCHES=( "${FILESDIR}/carla-2.5.0-clang-unknown-argument.patch" )
 
 src_prepare() {
 	sed -i -e "3s|=.*|=${PYTHON}|; 4,7d" \
@@ -92,6 +92,8 @@ src_compile() {
 	)
 
 	emake PREFIX="${EPREFIX}/usr" "${myemakeargs[@]}" features
+
+	use elibc_musl && export LDFLAGS="-l fts"
 	emake PREFIX="${EPREFIX}/usr" "${myemakeargs[@]}"
 }
 
