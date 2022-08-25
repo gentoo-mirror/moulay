@@ -1,4 +1,4 @@
-DEFINED_PHASES=install prepare
+DEFINED_PHASES=install postinst prepare pretend
 DESCRIPTION=A quick-n-dirty BSD licensed clone of the GNU libc backtrace facility
 EAPI=8
 HOMEPAGE=https://www.freshports.org/devel/libexecinfo
@@ -7,4 +7,4 @@ KEYWORDS=~amd64
 LICENSE=BSD-2
 SLOT=0
 SRC_URI=http://distcache.freebsd.org/local-distfiles/itetcu/libexecinfo-1.1.tar.bz2
-_md5_=a596b75a4e307b7704a2223cdb127f3d
+_md5_=a97fd817a3610a0cf7595c71746cd964
