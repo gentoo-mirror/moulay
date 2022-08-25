@@ -18,6 +18,22 @@ PATCHES=(
 	"${FILESDIR}/30-linux-makefile.patch"
 )
 
+_warning_message() {
+	ewarn "This package will be removed on 2023-01-01."
+	ewarn "This package can cause weird issues on some other packages."
+	ewarn ""
+	ewarn "If your builds are failing because of execinfo.h, try and patch it out"
+	ewarn "instead of using this package."
+	ewarn "libexecinfo was recently removed from alpine repos (2022-07-31) so more"
+	ewarn "patches should be available for software failing to compile on musl"
+	ewarn ""
+	ewarn "If you still intend to use this package, copy it a local repo."
+}
+
+pkg_pretend() {
+	_warning_message
+}
+
 src_prepare() {
 	default
 
@@ -35,4 +51,8 @@ src_install() {
 	use static-libs && dolib.a libexecinfo.a
 	dolib.so libexecinfo.so.1
 	dosym ./libexecinfo.so.1 /usr/"$(get_libdir)"/libexecinfo.so
+}
+
+pkg_postinst() {
+	_warning_message
 }
