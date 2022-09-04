@@ -3,8 +3,8 @@ app-editors/helix 22.05-r1 9999: A post-modern modal text editor
 app-misc/tiramisu 2.0.20211107 9999: Desktop notifications, the UNIX way
 dev-libs/libexecinfo 1.1-r1: A quick-n-dirty BSD licensed clone of the GNU libc backtrace facility
 dev-python/pyliblo 0.10.0 9999: Python bindings for the liblo OSC library
-dev-tex/texlab 4.2.1 9999: An implementation of the Language Server Protocol for LaTeX
-dev-util/kak-lsp 12.2.1 13.0.0 9999: Kakoune Language Server Protocol Client
+dev-tex/texlab 4.2.2 9999: An implementation of the Language Server Protocol for LaTeX
+dev-util/kak-lsp 14.0.0 9999: Kakoune Language Server Protocol Client
 dev-util/zls 0.9.0 9999: Zig LSP implementation + Zig Language Server
 gui-apps/nwg-launchers 0.6.3 9999: GTK-based launchers for sway and other window managers
 gui-apps/wev 1.0.0 9999: Tool for debugging events on a Wayland window
