@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -8,7 +8,7 @@ adler-1.0.2
 ahash-0.7.6
 aho-corasick-0.7.18
 ansi_term-0.12.1
-anyhow-1.0.59
+anyhow-1.0.62
 assert_unordered-0.3.5
 atty-0.2.14
 autocfg-1.1.0
@@ -22,13 +22,12 @@ byte-tools-0.3.1
 byteorder-1.4.3
 cast-0.3.0
 cfg-if-1.0.0
-chrono-0.4.20
+chrono-0.4.22
 clap-2.34.0
-clap-3.2.16
-clap_derive-3.2.15
+clap-3.2.17
+clap_derive-3.2.17
 clap_lex-0.2.4
 console-0.15.1
-convert_case-0.4.0
 countme-3.0.1
 crc32fast-1.3.2
 criterion-0.3.6
@@ -67,7 +66,7 @@ idna-0.2.3
 indexmap-1.9.1
 inotify-0.9.6
 inotify-sys-0.1.5
-insta-1.17.1
+insta-1.19.0
 instant-0.1.12
 isocountry-0.3.2
 itertools-0.10.3
@@ -85,18 +84,18 @@ log-0.4.17
 logos-0.12.1
 logos-derive-0.12.1
 lsp-server-0.6.0
-lsp-types-0.93.0
+lsp-types-0.93.1
 maplit-1.0.2
 matches-0.1.9
 memchr-2.5.0
 memoffset-0.6.5
 miniz_oxide-0.5.3
 mio-0.8.4
-notify-5.0.0-pre.15
+notify-5.0.0-pre.16
 num-integer-0.1.45
 num-traits-0.2.15
 num_cpus-1.13.1
-once_cell-1.13.0
+once_cell-1.13.1
 oorandom-11.1.3
 opaque-debug-0.2.3
 os_str_bytes-6.2.0
@@ -123,20 +122,17 @@ regex-syntax-0.6.27
 remove_dir_all-0.5.3
 rowan-0.15.8
 rustc-hash-1.1.0
-rustc_version-0.4.0
 rustversion-1.0.8
 ryu-1.0.10
 same-file-1.0.6
 scopeguard-1.1.0
-semver-1.0.12
-serde-1.0.142
+serde-1.0.144
 serde_cbor-0.11.2
-serde_derive-1.0.142
-serde_json-1.0.83
+serde_derive-1.0.144
+serde_json-1.0.85
 serde_millis-0.1.1
 serde_regex-1.1.0
 serde_repr-0.1.9
-serde_yaml-0.8.26
 sha-1-0.8.2
 similar-2.1.0
 smallstr-0.3.0
