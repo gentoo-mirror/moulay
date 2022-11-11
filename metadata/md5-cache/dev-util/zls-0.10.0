@@ -1,0 +1,10 @@
+BDEPEND=|| ( ( >=dev-lang/zig-bin-0.10.0 <dev-lang/zig-bin-0.11.0 ) ( >=dev-lang/zig-0.10.0 <dev-lang/zig-0.11.0 ) )
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Zig LSP implementation + Zig Language Server
+EAPI=8
+HOMEPAGE=https://github.com/zigtools/zls
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/ziglibs/known-folders/archive/24845b0103e611c108d6bc334231c464e699742c.tar.gz -> known-folders-24845b0103e611c108d6bc334231c464e699742c.tar.gz https://github.com/wolfpld/tracy/archive/f493d4aa8ba8141d9680473fad007d8a6348628e.tar.gz -> tracy-f493d4aa8ba8141d9680473fad007d8a6348628e.tar.gz https://github.com/zigtools/zls/archive/refs/tags/0.10.0.tar.gz -> zls-0.10.0.tar.gz
+_md5_=a48fe09da0d5c270af948dad47a8e2ef
