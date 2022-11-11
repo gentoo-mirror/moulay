@@ -55,7 +55,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 
-PATCHES=( "${FILESDIR}/carla-2.5.0-clang-unknown-argument.patch" )
+PATCHES="${FILESDIR}/carla-2.5.0-clang-unknown-argument.patch"
 
 src_prepare() {
 	sed -i -e "3s|=.*|=${PYTHON}|; 4,7d" \
