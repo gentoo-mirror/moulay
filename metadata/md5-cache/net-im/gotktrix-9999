@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/glib dev-libs/gobject-introspection gui-libs/gtk:4[introspection] media-libs/graphene[introspection] secrets? ( virtual/secret-service ) x11-libs/gdk-pixbuf[introspection]
 RESTRICT=strip
 SLOT=0
-_eclasses_=go-module	fdf8c78611f9efa20d26b955399a44c7	optfeature	1a2157392a869265b2afcb63a26c12ac	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=go-module	75029f071ebc843223233ab1b0a2d4a5	optfeature	1a2157392a869265b2afcb63a26c12ac	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=4ac58e762b2a7b61ded2e63befec4bfd
