@@ -11,5 +11,5 @@ LICENSE=GPL-3+
 RDEPEND=app-text/gspell dev-libs/glib dev-libs/openssl gui-libs/libhandy:1 media-libs/gst-plugins-bad media-libs/gst-plugins-base media-libs/gstreamer media-libs/gstreamer-editing-services sys-apps/dbus x11-libs/cairo x11-libs/gdk-pixbuf x11-libs/gtk+:3 x11-libs/gtksourceview:4
 SLOT=0
 SRC_URI=https://gitlab.gnome.org/GNOME/fractal/uploads/46141d42ea313ecce83c8843f96d2c42/fractal-4.4.1.tar.xz -> fractal-4.4.1b_rc1.tar.xz
-_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	3eaa1386ddbbbbb3951256d4b170fba3	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	meson	1994a5aef5d4f5798b92f64d6f9a6003
 _md5_=3babd837ee49fe0407285e98f4cb3680
